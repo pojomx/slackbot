@@ -1,0 +1,20 @@
+{
+  "name": "espiralbot",
+  "version": "1.0.0",
+  "description": "Slack bot for EspiralApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "slack"
+  ],
+  "author": "Alan Milke",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "slackbots": "^1.0.2"
+  }
+}
