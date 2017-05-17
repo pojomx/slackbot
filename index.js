@@ -25,15 +25,8 @@ bot.on('message', function(data) {
 
         var response = null;
         switch(message){
-            case "tu tranquis":
-                response = "ya nada";
-                break;
-            case "yo no fui":
-                response = "tu bien sabes quien fue";
-                break;
-            case "te digo quien fue?":
-            case "te digo quien fue":
-                response = "no we, no me digas";
+            case "ola":
+                response = "🌊";
                 break;
         }
 
